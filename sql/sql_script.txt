@@ -1,0 +1,14 @@
+CREATE TABLE ams;
+
+USE ams;
+
+CREATE TABLE persons
+(
+	name varchar(255),
+	age int
+);
+
+INSERT INTO persons VALUES ('Alice', '40');
+INSERT INTO persons VALUES ('Bob', '35');
+
+SELECT * from persons;
